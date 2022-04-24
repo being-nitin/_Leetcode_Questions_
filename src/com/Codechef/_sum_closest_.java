@@ -13,6 +13,9 @@ public class _sum_closest_ {
                 } else {
                     start++;
                 }
+                /*will check in very step that the difference of currsum and closestsum is
+                less than or not.
+                 */
                 if (Math.abs(currSum - target) < Math.abs(closestSum - target)) {
                     closestSum = currSum;
                 }
