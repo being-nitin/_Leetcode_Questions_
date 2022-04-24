@@ -1,4 +1,5 @@
-package com.Codechef;
+package com.leetcode;
+import java.util.*;
 
 public class _sum_closest_ {
     public static int sumClosest(int[] arr, int target) {
