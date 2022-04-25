@@ -31,6 +31,7 @@ All the integers in nums appear onl
  */
         int[] nums = {3,1,1,4,2};
         System.out.println(duplicate(nums));
+        System.out.println(4*2);
     }
     public static int duplicate(int[] nums) {
         Arrays.sort(nums);
